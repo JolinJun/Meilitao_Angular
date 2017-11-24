@@ -1,0 +1,17 @@
+.mlt-home {
+    position: relative;
+}
+
+.mlt-home img {
+    width: 100%;
+}
+
+.mlt-home .swiper-pagination-bullet-active {
+    background: red;
+}
+
+.mlt-home .mlt-search {
+    width: 100%;
+    height: 30px;
+    background: red;
+}

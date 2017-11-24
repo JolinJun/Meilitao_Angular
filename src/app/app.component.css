@@ -1,0 +1,91 @@
+.mlt-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: .18rem .24rem;
+    background: #FA145F;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.mlt-header .logo {
+    width: 25px;
+    position: absolute;
+}
+
+.mlt-header .mlt-title {
+    font-size: .35rem;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.mlt-container {
+    padding: .85rem 0;
+}
+
+.mlt-container .swiper-slide img {
+    width: 100%;
+}
+
+.mlt-search {
+    width: 100%;
+    height: 30px;
+    background: red;
+}
+
+.mlt-container .swiper-pagination-bullet-active {
+    background: #FA145F;
+}
+
+
+/* footer 尾部样式 */
+
+.mlt-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.mlt-footer .footer-item {
+    width: 33%;
+    text-align: center;
+}
+
+.mlt-footer .footer-item a {
+    padding-top: 0.4rem;
+    display: block;
+    height: .7rem;
+    box-sizing: border-box;
+}
+
+.mlt-footer .footer-item .home {
+    background: url('../assets/images/icon_home.png') center 6px no-repeat;
+}
+
+.mlt-footer .footer-item .cart {
+    background: url('../assets/images/icon_cart.png') center 6px no-repeat;
+}
+
+.mlt-footer .footer-item .my {
+    background: url('../assets/images/icon_my.png') center 6px no-repeat;
+}
+
+.mlt-footer .footer-item .home-act {
+    background: url('../assets/images/icon_home_active.png') center 6px no-repeat;
+}
+
+.mlt-footer .footer-item .cart-act {
+    background: url('../assets/images/icon_cart_active.png') center 6px no-repeat;
+}
+
+.mlt-footer .footer-item .my-act {
+    background: url('../assets/images/icon_my_active.png') center 6px no-repeat;
+}
+
+.mlt-footer .footer-item .active {
+    color: #FA145F;
+}
