@@ -15,3 +15,53 @@
     height: 30px;
     background: red;
 }
+
+.mlt-home {
+    background: #f5f5f5;
+}
+
+.mlt-home .p-item {
+    margin-bottom: 10px;
+    background: white;
+}
+
+.mlt-home .p-item a {
+    display: block;
+    position: relative;
+}
+
+.mlt-home .p-item .p-pic {
+    height: 100%;
+}
+
+.mlt-home .p-item .p-info {
+    position: absolute;
+    top: 0;
+    right: .14rem;
+    width: 3.88rem;
+    height: 100%;
+}
+
+.mlt-home .p-item .p-title {
+    line-height: 18px;
+    margin-top: .22rem;
+}
+
+.mlt-home .p-item .p-price {
+    position: absolute;
+    bottom: .22rem;
+}
+
+.mlt-home .p-item .p-price-new {
+    color: #FA145F;
+    font-size: 16px;
+}
+
+.mlt-home .p-item .p-price-old,
+.p-comment {
+    color: #999;
+}
+
+.mlt-home .p-item .p-price-old {
+    text-decoration-line: line-through;
+}
