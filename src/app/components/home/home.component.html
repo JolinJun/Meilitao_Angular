@@ -1,4 +1,66 @@
-<div class="mlt-home">
+<div class="mlt mlt-home">
+
+    <!-- 头部 -->
+    <header class="mlt-header clear">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAArCAYAAAAOnxr+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MjBCNDhFMzJCRUNEMTFFNzg1NTlEQzcyQjUxNUZDOEEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MjBCNDhFMzNCRUNEMTFFNzg1NTlEQzcyQjUxNUZDOEEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDoyMEI0OEUzMEJFQ0QxMUU3ODU1OURDNzJCNTE1RkM4QSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDoyMEI0OEUzMUJFQ0QxMUU3ODU1OURDNzJCNTE1RkM4QSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PskbQtwAAATKSURBVHjaxJlbbExBGMfP2d0uQiMSFbcIIcKD0LqkIi4hBFFa7datibjH3ZO4PblEEJFqGw8oD4KqexBpI+qB1K3iwT3a6pVUEBpLb+s/8h+ZnJzdPefs2p3kl3N2Zs6c/5n5Zuabb/VAIKDZTF6QTsaDvqAdfAKPwGVwBbRo0UxCqA0ywLtA+PSBdbVoYbWiGxwwCNkLUkF3lvcCM0Ae+MZ6R4AeS6FSZAvYCjqHqd8TFCpiYyI0iy8UvTTF5gs2gg6agRf4wHlQBX6CH+AVOMsyr1Oh4sFa0AbSHPbGHlAPKoEflIMicA7cA82KSQn7n+9E6BI2cDyCYfOAK2A56GZS3glkggpF8AHavWWhxbTLftGcwUFwgW2gXRFrWWg1uBUDkSorlZ7Nsir0F9gRY6GCoxRaJyeYK8x+0AFqtNinXeAz6AeyRYYrxDbpo1BXHIR+B/m8Tw+2hfq484j1rxSMisPQC0Zy+KuNNiq2usMsfAMmx0mguqyJFee3Ueh+iiwDPeIsUtLECf1PaDpFvqWT4aTR5Vz7BrA3oiFUbLE1UqjcJgMRDHe2svbdBl2iILI32yuSy1MG6A/KwD2Hs7QcNPNeOM/+KMz8abxek8uTjxmnI2hUrLUbwFLwHAxjfiYo5H0CGAPWgDsgOUybq0EtuCiXpw/s4sEOhmcIzcWl5O0EM3nvZ9sXwAjwQHnfpRDtzjHbQluZmeBAaD2fFS7gUMV/TeX9RMXbL6U/28oPOMQVxjgv+oMGUGB0SloiECo2h1VGl8yEu3xHCV26YmXyPTcceZ7QT1VHSfNg9OvBQE6oKpu2WQzSwClhRaAbT6TXQRPoA1JAG+tPB25uj8JmE8E+pb127u0l4AjYwnb/Cn1AoZMcCNX4ohEm+S8pMs2QPxUkgR1gHu/VVAmmgGf8vVnO+hvMyI5gxhvTR/AFNJiUtfLDxCjcBEUmdeq4imziyqHJPbWKTkiKAzutMDnXnwQ5nO3GtBtsV34vC9KuzrbFZuTVGSnJ5peJ7p5gc8FeB8ZJW6KdPQRDwVMwA+gsE9cC8BjksseaaatmaRPrLfYw4wJtdD24xN3qtw3fsYa+q8aJs5C2eAa8U3xaFyectL3KMLthGa8ZHiVzM3tDfMV9kANeWxCaxN7rUHrtBWd3NRjO3tZJhfJsbpi23/M61sw25vIM3srAwGzQNYSN3jCxQ3GWXwQOmpTts2H/bj7jNztmXGcP5bBXhO0uCfHVbpO8HqAnr8ak27D/3tJkgp2H2ihwARfuuhCNdTfJS6Qtmk2SrjaEpvLa6LFQuS/XvmDpLRiizHqNttlIsU1KmU6PyGpK5/WJFTv5DlbE4RgygMcQkXKsHIUbubbGMomePwY60RcptvJlwtP5GiTA9b84pKwSPqvxURnR2xnBi7tYPEeJg+UZReRBO4FcefjzRxCMOEHPfgNIMikfxEh2gyIyX/Vz7TjIAXr0yTYE6lz8ZYhcRmDe0Dm+T4coYAjmZjmN4WvKLiMixGstnN37gMt85qgStF1Ar0qGx1t4f5Fm5o3kzwa5neUpX/6aIckUDqeb4mZxqH+yXm40/hlx8lCmxf+aaoPF452gO/jnTg1LCndwNOOY7fTsha95lefxqP1790eAAQAtn54I9KIjNgAAAABJRU5ErkJggg=="
+            alt="" class="logo fl">
+        <h1 class="mlt-title fl">美丽淘</h1>
+        <em class="mlt-search" (click)="openSearchWrap()"></em>
+    </header>
+
+    <!-- 搜索弹框 -->
+    <div class=" searchWrap mask" *ngIf="searchWrapShow" [@FadeIn]>
+        <div class="search-page">
+            <div class="search-header">
+                <input type="text" class="search-input" placeholder="输入商品名称、品牌……">
+                <em class="search-icon"></em>
+                <span (click)="closeSearchWrap()">返回</span>
+            </div>
+            <ul class="search-list">
+                <li class="search-item">
+                    <div class="search-item-name first" [class.active]="isActive" (click)="slideDown($event)">面部护肤
+                        <em class="bg-icon"></em>
+                    </div>
+                    <div class="search-panner">
+                        <div class="sort">化妆水/爽肤水</div>
+                        <div class="sort">化妆水/爽肤水</div>
+                        <div class="sort">化妆水/爽肤水</div>
+                    </div>
+                </li>
+                <li class="search-item">
+                    <div class="search-item-name active first" [class.active]="isActive" (click)="slideDown()">女装
+                        <em class="bg-icon"></em>
+                    </div>
+                    <div class="search-panner">
+                        <div class="sort">化妆水/爽肤水</div>
+                        <div class="sort">化妆水/爽肤水</div>
+                        <div class="sort">化妆水/爽肤水</div>
+                    </div>
+                </li>
+                <li class="search-item">
+                    <div class="search-item-name active" [class.active]="isActive" (click)="slideDown()">身体护理
+                        <em class="bg-icon"></em>
+                    </div>
+                    <div class="search-panner">
+                        <div class="sort">化妆水/爽肤水</div>
+                        <div class="sort">化妆水/爽肤水</div>
+                        <div class="sort">化妆水/爽肤水</div>
+                    </div>
+                </li>
+                <li class="search-item">
+                    <div class="search-item-name active" [class.active]="isActive" (click)="slideDown()">美妆
+                        <em class="bg-icon"></em>
+                    </div>
+                    <div class="search-panner">
+                        <div class="sort">化妆水/爽肤水</div>
+                        <div class="sort">化妆水/爽肤水</div>
+                        <div class="sort">化妆水/爽肤水</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
     <div class="myslides">
         <ks-swiper-container [options]="swiperOptions">
             <ks-swiper-slide *ngFor="let item of imgArray">
@@ -6,24 +68,24 @@
             </ks-swiper-slide>
         </ks-swiper-container>
     </div>
+
     <ul class="p-list">
-        <li class="p-item">
+        <li class="p-item" #itemRef *ngFor="let item of data">
             <a routerLink="">
                 <div class="p-pic">
-                    <img src="../../../assets/images/pic1.jpg" alt="">
+                    <img src="../../../assets/images/pic2.jpg" alt="">
                 </div>
                 <div class="p-info">
-                    <div class="p-title">这是商品名字</div>
+                    <div class="p-title">{{item.title}}</div>
                     <div class="p-price">
-                        <span class="p-price-new">￥248</span>
+                        <span class="p-price-new">￥{{item.aid}}</span>
                         <span class="p-price-old">￥538</span>
                         <div class="p-comment">2.1万条评论</div>
-
                     </div>
                 </div>
             </a>
         </li>
-        <li class="p-item">
+        <!-- <li class="p-item">
             <a routerLink="">
                 <div class="p-pic">
                     <img src="../../../assets/images/pic2.jpg" alt="">
@@ -52,7 +114,7 @@
                     </div>
                 </div>
             </a>
-        </li>
+        </li> -->
     </ul>
 
 </div>

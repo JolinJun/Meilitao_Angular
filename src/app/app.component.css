@@ -1,39 +1,9 @@
-.mlt-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: .18rem .24rem;
-    background: #FA145F;
-    width: 100%;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
-
-.mlt-header .logo {
-    width: 25px;
-    position: absolute;
-}
-
-.mlt-header .mlt-title {
-    font-size: .35rem;
-    color: white;
-    width: 100%;
-    text-align: center;
-}
-
 .mlt-container {
     padding: .85rem 0;
 }
 
 .mlt-container .swiper-slide img {
     width: 100%;
-}
-
-.mlt-search {
-    width: 100%;
-    height: 30px;
-    background: red;
 }
 
 .mlt-container .swiper-pagination-bullet-active {
@@ -44,6 +14,7 @@
 /* footer 尾部样式 */
 
 .mlt-footer {
+    background: white;
     position: fixed;
     bottom: 0;
     left: 0;

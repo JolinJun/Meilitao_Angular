@@ -1,0 +1,26 @@
+.mlt-cart img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.mlt-cart .mlt-con {
+    margin-top: 150px;
+}
+
+.mlt-cart p {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.mlt-cart .btn {
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    background: #FA145F;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    margin: 10px auto;
+}

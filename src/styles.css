@@ -872,3 +872,16 @@ p {
     transform-origin: 0 0;
     -webkit-transform-origin: 0 0;
 }
+
+
+/* 弹性盒子 */
+
+.flex-box {
+    display: -webkit-box;
+    /* display: box; */
+}
+
+.flex {
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+}
